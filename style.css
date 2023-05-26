@@ -1,0 +1,1802 @@
+@import url('https://fonts.googleapis.com/css2?family=Darumadrop+One&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Darumadrop One', cursive;
+	
+}
+
+body{
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('images/wallpaper.jpg');
+	height: 150vh;
+	background-size: cover;
+	background-position: center;
+}
+header{
+	background-color: black;
+	width: 100%;
+	height: 100px;
+	
+
+}
+
+
+.sidenav {
+  height: 140.5%;
+  width: 0;
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: black;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: white;
+  display: block;
+  transition: 0.3s;
+  justify-content: center;
+
+}
+
+.sidenav a:hover {
+  color: gold;
+  text-shadow: 0 0 20px white;
+ 
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 30px;
+  font-size: 40px;
+
+
+}
+
+
+
+
+.span{
+  position: absolute;
+  top: 3%;
+  left: 1%;
+  color: white;
+  text-shadow: 0 0 20px white;
+  border: 5px solid hidden;
+  border-radius: 20px;
+  padding: 5px;
+
+}
+.logo-contacts{
+	text-decoration: none;
+	position: absolute;
+	top: 1%;
+	left: 5%;
+}
+.t1{
+	position: absolute;
+	top: 4%;
+	left: 13%;
+	font-size: 20px;
+	color: gold;
+	text-decoration: underline;
+	cursor: default;
+}
+
+.t1 a{
+	text-decoration: none;
+	color: gold;
+}
+
+.main{
+	max-width: 1200px;
+	margin: auto;
+}
+.title{
+	position: absolute;
+	top: 25%;
+	left:15%;
+	transform: translate(-50%,-50%);
+	text-align: center;
+}
+.title h1{
+	color: gold;
+	font-size: 25px;
+	position: absolute;
+	text-align: center;
+	letter-spacing: 6px;
+	border: 5px solid gold;
+	padding: 20px;
+	border-style: dashed;
+	background-image: url('images/wood1.jpg');
+	background-size: cover;
+	background-position: center;
+}
+.title h1 q{
+	font-size: 20px;
+}
+.content{
+	position: absolute;
+	padding: 70px;
+	top: 45%;
+	left: 0;
+	color: gold;
+	text-align: center;
+	font-size: 26px;
+	margin: auto;
+	letter-spacing: 3px;
+	text-shadow: 0 0 20px black;
+	font-weight: 500;
+}
+.content p cite{
+	text-decoration-line: underline;
+	text-transform: uppercase;
+}
+
+.content2{
+	position: absolute;
+	padding: 50px;
+	top: 87%;
+	left: 0;
+	color: gold;
+	margin: 40px;
+	text-align: center;
+	font-size: 26px;
+	letter-spacing: 3px;
+	text-shadow: 0 0 20px black;
+	font-weight: 500;
+
+}	
+.menu{
+	position: absolute;
+	top: 30%;
+	left:20%;
+	transform: translate(-50%,-50%);
+}
+.menu h1{
+	color: gold;
+	font-size: 60px;
+	position: absolute;
+	text-align: center;
+	letter-spacing: 5px;
+}
+.menucontent{
+	position: absolute;
+	top: 200px;
+	left: 70%;
+	transform: translate(-50%,-50%);
+	margin: 10px;
+	padding: 30px;
+	border: 10px solid gold;
+	background: black;
+	border-style: ridge;
+	color: gold;
+	font-size: 20px;
+	letter-spacing: 1px;
+}
+
+.burgers img{
+	position: absolute;
+	top: 60%;
+	left: 10%;
+	border: 10px solid black;
+	border-radius: 50px;
+}
+.burgers img:hover{
+	box-sizing: border-box;
+	box-shadow: 0 0 20px gold;
+}
+.beverages img{
+	position: absolute;
+	top: 60%;
+	left: 50%;
+	border: 10px solid black;
+	border-radius: 50px;
+}
+.beverages img:hover{
+	box-sizing: border-box;
+	box-shadow: 0 0 20px gold;
+}
+.theburger h2{
+	position: absolute;
+	top: 30%;
+	left: 65%;
+	font-size: 60px;
+	text-decoration: underline;
+
+
+}
+.theburger h2.space{
+	position: absolute;
+	top: 35%;
+	left: 55%;
+	font-size: 50px;
+	text-decoration: underline;
+}
+.theburgerb h2.space{
+	position: absolute;
+	top: 30%;
+	left: 65%;
+	font-size: 50px;
+	text-decoration: underline;
+}
+
+.thecontent{
+	position: absolute;
+	top: 37%;
+	left: 35%;
+	transform: translate(-50%,-50%);
+	border: 10px solid gold;
+	background:  black;
+	opacity: 80%;
+	color:	white ;
+	margin:auto;
+	border-style: ridge;
+	text-align: center;
+	font-size: 25px;
+	padding: 10px;
+	margin-right: 300px;
+	letter-spacing: 1px;
+	border-radius: 20px;
+	line-height: 35px;
+}
+.thecontent cite{
+	text-decoration-line: underline;
+}
+
+.thecontentb{
+	position: absolute;
+	top: 37%;
+	left: 35%;
+	transform: translate(-50%,-50%);
+	border: 10px solid gold;
+	background:  black;
+	opacity: 80%;
+	color:	white ;
+	margin:auto;
+	border-style: ridge;
+	text-align: center;
+	font-size: 25px;
+	padding: 10px;
+	margin-right: 300px;
+	letter-spacing: 1px;
+	border-radius: 20px;
+	line-height: 35px;
+}
+.thecontentb cite{
+	text-decoration-line: underline;
+}
+
+
+
+
+
+
+
+.button{
+	position: absolute;
+	top: 135%;
+	left: 44%;
+	transform: translate(-50,-50);
+	border: 3px solid gold;
+	font-size: 20px;
+	background-color: black;
+	color: gold;
+	padding: 10px 20px;
+}
+.button:hover{
+	background-image: url('wood1.jpg');
+	background-position: center;
+	background-size: cover;
+}
+.button1{
+	position: absolute;
+	top: 135%;
+	left: 80%;
+	transform: translate(-50,-50);
+	border: 3px solid gold;
+	font-size: 20px;
+	background-color: black;
+	color: gold;
+	padding: 10px 20px;
+}
+.button1:hover{
+	background-image: url('wood1.jpg');
+	background-position: center;
+	background-size: cover;
+}
+
+
+
+
+
+
+
+
+
+.wrap{
+	position: absolute;
+	top: 30px;
+	left: 50%;
+	max-width: 350px;
+	
+	margin: auto;
+	background: rgba(0,0,0,0.8);
+	box-sizing: border-box;
+	padding: 10px;
+	color: gold;
+	margin-top: 100px;
+	font-family: arial;
+	border: 20px solid gold;
+	border-style: ridge;
+}
+h2{
+	text-align: center;
+	color: gold;
+	text-transform: uppercase;
+}
+input[type=text],input[type=password]{
+	width: 100%;
+	box-sizing: border-box;
+	padding: 20px 5px;
+	background: rgba(0,0,0,0.10);
+	outline: none;
+	border: none;
+	border-bottom: 1px ridge gold;
+	color: gold;
+	border-radius: 5px;
+	margin:auto;
+	font-weight: bold;
+
+	
+}
+input[type=submit]{
+	width: 100%;
+	box-sizing: border-box;
+	padding: 10px 0;
+	margin-top: 30px;
+	outline: none;
+	border:none;
+	background: black;
+	opacity: 0.7;
+	text-transform: uppercase;
+	font-size: 20px;
+	color: gold;
+}
+input[type=submit]:hover{
+	background: Gold;
+	color: black;
+	text-transform: uppercase;
+	opacity: 1;
+}
+input[type=button]{
+	width: 100%;
+	box-sizing: border-box;
+	padding: 10px 0;
+	margin-top: 30px;
+	outline: none;
+	border:none;
+	background: black;
+	opacity: 0.7;
+	text-transform: uppercase;
+	font-size: 20px;
+	color: gold;
+	border-radius: 50px;
+}
+input[type=button]:hover{
+	background: gold;
+	color: black;
+	text-transform: uppercase;
+	opacity: 1;
+	border-radius: 50px;
+}
+input[type=button1]{
+	width: 100%;
+	box-sizing: border-box;
+	padding: 10px 0;
+	margin-top: 30px;
+	outline: none;
+	border:none;
+	background: black;
+	opacity: 0.7;
+	text-transform: uppercase;
+	font-size: 20px;
+	color: gold;
+	text-align: center;
+}
+input[type=button1]:hover{
+	background: gold;
+	color: black;
+	text-transform: uppercase;
+	opacity: 1;
+}
+
+.wrapper{
+	position: absolute;
+	top: 15%;
+	left: 37%;
+	transform: translate(-50,-50);
+	max-width: 350px;
+	margin: auto;
+	background: rgba(0,0,0,0.8);
+	box-sizing: border-box;
+	padding: 80px 10px;
+	color: gold;
+	margin-top: 100px;
+	font-family: arial;
+	border: 20px solid gold;
+	border-style: ridge;
+}
+.login{
+	position: absolute;
+	top: 20%;
+	left:50%;
+	transform: translate(-50%,-50%);
+}
+.login h1{
+	color: gold;
+	text-shadow:0 0 10px gold;
+	font-size: 60px;
+	text-align: center;
+}
+
+
+.contacts{
+	position: absolute;
+	top: 20%;
+	left: 13%;
+	transform: translate(-50,-50);
+	font-size: 20px;
+	color: gold;
+	letter-spacing: 2px;
+}
+.facebook{
+	position: absolute;
+	padding: 10px;
+	top: 20%;
+	left: 5%;
+	color:  gold;
+	text-align: center;
+	font-size: 50px;
+	margin: 90px;
+	letter-spacing: 3px;
+	border: 5px solid gold;
+	border-style: ridge;
+	text-align: center;
+	background-color: black;
+}
+.facebook a{
+	color: gold;
+	font-size: 25px;
+}
+.instagram{
+	position: absolute;
+	padding: 5px;
+	top: 50%;
+	left: 5%;
+	transform: translate(-50,-50);
+	color: gold;
+	text-align: center;
+	font-size: 47px;
+	margin: 90px;
+	letter-spacing: 3px;
+	border: 5px solid gold;
+	border-style: ridge;
+	text-align: center;
+	background-color: black;
+}
+.instagram a{
+	color: gold;
+	font-size: 25px;
+}
+.hotline{
+	position: absolute;
+	padding: 5px;
+	top: 80%;
+	left: 5%;
+	transform: translate(-50,-50);
+	color: gold;
+	text-align: center;
+	font-size: 47px;
+	margin: 90px;
+	letter-spacing: 3px;
+	border: 5px solid gold;
+	border-style: ridge;
+	text-align: center;
+	background-color: black;
+}
+.number{
+	position: absolute;
+	padding: 5px;
+	top: 100%;
+	left: 5%;
+	transform: translate(-50,-50);
+	color: gold;
+	text-align: center;
+	font-size: 47px;
+	margin: 90px;
+	letter-spacing: 3px;
+	border: 5px solid gold;
+	border-style: ridge;
+	text-align: center;
+	background-color: black;
+}
+.map{
+	position: absolute;
+	top: 26%;
+	left: 60%;
+	transform: translate(-50,-50);
+	border: 10px solid gold;
+	border-style: ridge;
+	background-color: black;
+}
+.map h3{
+	color: gold;
+	text-align: center;
+	border-bottom: 10px solid gold;
+	border-style: ridge;
+	background-color: black;
+}
+
+.titlea{
+	position: absolute;
+	top: 35%;
+	left: 20%;
+	transform: translate(-50%,-50%);
+	text-align: center;
+}
+.titlea h1{
+	color: gold;
+	font-size: 30px;
+	position: absolute;
+	text-align: center;
+	letter-spacing: 6px;
+	border: 5px solid gold;
+	padding: 20px;
+	border-style: ridge;
+	background-color: black;
+	border-width: 10px;
+}
+.titlea h1 q{
+	font-size: 20px;
+}
+
+.content3 p{
+	position: absolute;
+	top: 70%;
+	left: 8%;
+	text-align: center;
+	color: gold;
+	box-sizing: border-box;
+	border: 10px solid gold;
+	border-style: ridge;
+	font-size: 30px;
+	padding: 20px;
+	background-color: black;
+	border-width: 10px;
+
+
+
+}
+.wew{
+	position: absolute;
+	top: 25%;
+	left: 43%;
+	border: 10px solid gold;
+}
+.lol{
+	position: absolute;
+	top: 25%;
+	left: 67%;
+	border: 10px solid gold;
+	
+}
+
+.burgersp{
+	position: absolute;
+	top: 120%;
+	left: 18%;
+	color: gold;
+
+	font-size: 20px;
+	border: 10px solid gold;
+	border-style: ridge;
+	padding: 20px 50px;
+	background-color: black;
+}
+.drinksp{
+	position: absolute;
+	top: 120%;
+	left: 56%;
+	color: gold;
+	
+	font-size: 20px;
+	border: 10px solid gold;
+	border-style: ridge;
+	padding: 20px 50px;
+	background-color: black;
+}
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*Bacon CHEESEBUGER*/
+
+.container
+{
+	position: absolute;
+	top: 60%;
+	left: 7%;
+}
+
+	
+.container .card{
+	position: relative;
+	width: 320px;
+	height: 450px;
+	background: #232323;
+	border-radius: 20px;
+	overflow: hidden;
+	
+}
+.container .card:hover{
+	box-shadow: 0 0 20px gold;
+	transition: 0.5s ease-in-out;
+}
+
+.container .card:before
+{
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: black;
+	clip-path: circle(150px at 80% 20%);
+	transition: 0.5s ease-in-out;
+}
+.container .card:hover:before
+{
+	clip-path: circle(300px at 80% -20%);
+}
+.container .card:after
+{
+	content: 'Bacon';
+	position: absolute;
+	top: 30%;
+	left: -20%;
+	font-size: 12em;
+	font-weight: 800;
+	font-style: italic;
+	color: rgba(255,255,255,0.04);
+}
+.container .card .imgBx
+{
+	position: absolute;
+	top: 50%;
+	left: 3%;
+	transform: translateY(-50%);
+	z-index: 10000;
+	width: 100%;
+	height: 220px;
+	transition: 0.5s;
+}
+.container .card:hover .imgBx
+{
+	top: 0%;
+	transform: translateY(0%);
+}
+.container .card .contentBx
+{
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 100px;
+	text-align: center;
+	transition: 1s;
+	z-index: 10;
+}
+.container .card:hover .contentBx
+{
+	height: 210px;
+}
+.container .card .contentBx	h2
+{
+	position: relative;
+	font-weight: 600;
+	letter-spacing: 1px;
+	color: #fff;
+}
+.container .card .contentBx .size,
+.container .card .contentBx .amount
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 8px 20px;
+	transition: 0.5s;
+	opacity: 0;
+	visibility: hidden;
+}
+
+.container .card:hover .contentBx .size
+{
+	opacity: 1;
+	transition-delay: 0.5s;
+	visibility: visible;
+}
+.container .card:hover .contentBx .amount
+{
+	opacity: 1;
+	transition-delay: 0.5s;
+	visibility: visible;
+}
+
+.container .card .contentBx .size h3
+{
+	color: #fff;
+	font-weight: 300;
+	font-size: 14px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	margin-right: 10px;
+}
+.container .card .contentBx .size span
+{
+	width: 26px;
+	height: 26px;
+	text-align: center;
+	line-height: 26px;
+	font-size: 14px;
+	display: inline-block;
+	color: #111;
+	background: #fff;
+	cursor: pointer;
+	border-radius: 4px;
+	margin: 0 5px;
+}
+.container .card .contentBx .size span:hover
+{
+	background-color: black;
+	color: gold;
+}
+.amount
+{
+	padding: 10px 20px;
+	box-sizing: border-box;
+	border-radius: 10px;
+	text-align: center;
+	box-shadow: 0 0 15px black;
+	position: absolute;
+	left: 18%;
+}
+.container .card .contentBx .add-cart
+{
+	display: inline-block;
+	padding: 10px 20px;
+	background: #fff;
+	border-radius: 4px;
+	margin-top: 10px;
+	text-decoration: none;
+	font-weight: 600;
+	color: #111;
+	opacity: 0;
+	transform: translateY(50px);
+	transition: 0.5s;
+	position: absolute;
+	top: 70%;
+	left: 33%;
+}
+.container .card:hover .contentBx .add-cart
+{
+	opacity: 1;
+	transform: translateY(0px);
+	transition-delay: 0.75s;
+}
+
+
+
+
+
+
+
+
+
+
+/*GRILLED CHEESEBURGER*/
+.container2
+{
+	position: absolute;
+	top: 60%;
+	left: 37%;
+}
+
+	
+.container2 .card2{
+	position: relative;
+	width: 320px;
+	height: 450px;
+	background: #232323;
+	border-radius: 20px;
+	overflow: hidden;
+}
+.container2 .card2:hover{
+	box-shadow: 0 0 20px gold;
+	transition: 0.5s ease-in-out;
+}
+
+.container2 .card2:before
+{
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: black;
+	clip-path: circle(150px at 80% 20%);
+	transition: 0.5s ease-in-out;
+}
+.container2 .card2:hover:before
+{
+	clip-path: circle(300px at 80% -20%);
+}
+.container2 .card2:after
+{
+	content: 'Grilled';
+	position: absolute;
+	top: 30%;
+	left: -20%;
+	font-size: 12em;
+	font-weight: 800;
+	font-style: italic;
+	color: rgba(255,255,255,0.04);
+}
+.container2 .card2 .imgBx2
+{
+	position: absolute;
+	top: 50%;
+	left: 3%;
+	transform: translateY(-50%);
+	z-index: 10000;
+	width: 100%;
+	height: 220px;
+	transition: 0.5s;
+}
+.container2 .card2:hover .imgBx2
+{
+	top: 0%;
+	transform: translateY(0%);
+}
+.container2 .card2 .contentBx2
+{
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 100px;
+	text-align: center;
+	transition: 1s;
+	z-index: 10;
+}
+.container2 .card2:hover .contentBx2
+{
+	height: 210px;
+}
+.container2 .card2 .contentBx2	h2
+{
+	position: relative;
+	font-weight: 600;
+	letter-spacing: 2px;
+	color: #fff;
+}
+.container2 .card2 .contentBx2 .size2,
+.container2 .card2 .contentBx2 .amount2
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 8px 20px;
+	transition: 0.5s;
+	opacity: 0;
+	visibility: hidden;
+}
+
+.container2 .card2:hover .contentBx2 .size2
+{
+	opacity: 1;
+	transition-delay: 0.5s;
+	visibility: visible;
+}
+.container2 .card2:hover .contentBx2 .amount2
+{
+	opacity: 1;
+	transition-delay: 0.5s;
+	visibility: visible;
+}
+
+.container2 .card2 .contentBx2 .size2 h3
+{
+	color: #fff;
+	font-weight: 300;
+	font-size: 14px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	margin-right: 10px;
+}
+.container2 .card2 .contentBx2 .size2 span
+{
+	width: 26px;
+	height: 26px;
+	text-align: center;
+	line-height: 26px;
+	font-size: 14px;
+	display: inline-block;
+	color: #111;
+	background: #fff;
+	cursor: pointer;
+	border-radius: 4px;
+	margin: 0 5px;
+}
+.container2 .card2 .contentBx2 .size2 span:hover
+{
+	background-color: black;
+	color: gold;
+}
+.amount2
+{
+	padding: 10px 20px;
+	box-sizing: border-box;
+	border-radius: 10px;
+	text-align: center;
+	box-shadow: 0 0 15px black;
+	position: absolute;
+	left: 18%;
+}
+.container2 .card2 .contentBx2 .add-cart
+{
+	display: inline-block;
+	padding: 10px 20px;
+	background: #fff;
+	border-radius: 4px;
+	margin-top: 10px;
+	text-decoration: none;
+	font-weight: 600;
+	color: #111;
+	opacity: 0;
+	transform: translateY(50px);
+	transition: 0.5s;
+	position: absolute;
+	top: 70%;
+	left: 33%;
+}
+.container2 .card2:hover .contentBx2 .add-cart
+{
+	opacity: 1;
+	transform: translateY(0px);
+	transition-delay: 0.75s;
+}
+
+
+
+
+
+
+
+
+
+
+/*Deluxe Cheeseburger*/
+.container3
+{
+	position: absolute;
+	top: 60%;
+	left: 67%;
+}
+
+	
+.container3 .card3{
+	position: relative;
+	width: 320px;
+	height: 450px;
+	background: #232323;
+	border-radius: 20px;
+	overflow: hidden;
+
+}
+.container3 .card3:hover{
+	box-shadow: 0 0 20px gold;
+	transition: 0.5s ease-in-out;
+}
+
+.container3 .card3:before
+{
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: black;
+	clip-path: circle(150px at 80% 20%);
+	transition: 0.5s ease-in-out;
+}
+.container3 .card3:hover:before
+{
+	clip-path: circle(300px at 80% -20%);
+}
+.container3 .card3:after
+{
+	content: 'Deluxe';
+	position: absolute;
+	top: 30%;
+	left: -20%;
+	font-size: 12em;
+	font-weight: 800;
+	font-style: italic;
+	color: rgba(255,255,255,0.04);
+}
+.container3 .card3 .imgBx3
+{
+	position: absolute;
+	top: 50%;
+	left: 3%;
+	transform: translateY(-50%);
+	z-index: 10000;
+	width: 100%;
+	height: 220px;
+	transition: 0.5s;
+}
+.container3 .card3:hover .imgBx3
+{
+	top: 0%;
+	transform: translateY(0%);
+}
+.container3 .card3 .contentBx3
+{
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 100px;
+	text-align: center;
+	transition: 1s;
+	z-index: 10;
+}
+.container3 .card3:hover .contentBx3
+{
+	height: 210px;
+}
+.container3 .card3 .contentBx3	h2
+{
+	position: relative;
+	font-weight: 600;
+	letter-spacing: 1px;
+	color: #fff;
+}
+.container3 .card3 .contentBx3 .size3,
+.container3 .card3 .contentBx3 .amount3
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 8px 20px;
+	transition: 0.5s;
+	opacity: 0;
+	visibility: hidden;
+}
+
+.container3 .card3:hover .contentBx3 .size3
+{
+	opacity: 1;
+	transition-delay: 0.5s;
+	visibility: visible;
+}
+.container3 .card3:hover .contentBx3 .amount3
+{
+	opacity: 1;
+	transition-delay: 0.5s;
+	visibility: visible;
+}
+
+.container3 .card3 .contentBx3 .size3 h3
+{
+	color: #fff;
+	font-weight: 300;
+	font-size: 14px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	margin-right: 10px;
+}
+.container3 .card3 .contentBx3 .size3 span
+{
+	width: 26px;
+	height: 26px;
+	text-align: center;
+	line-height: 26px;
+	font-size: 14px;
+	display: inline-block;
+	color: #111;
+	background: #fff;
+	cursor: pointer;
+	border-radius: 4px;
+	margin: 0 5px;
+}
+.container3 .card3 .contentBx3 .size3 span:hover
+{
+	background-color: black;
+	color: gold;
+}
+.amount3
+{
+	padding: 10px 20px;
+	box-sizing: border-box;
+	border-radius: 10px;
+	text-align: center;
+	box-shadow: 0 0 15px black;
+	position: absolute;
+	left: 18%;
+}
+.container3 .card3 .contentBx3 .add-cart
+{
+	display: inline-block;
+	padding: 10px 20px;
+	background: #fff;
+	border-radius: 4px;
+	margin-top: 10px;
+	text-decoration: none;
+	font-weight: 600;
+	color: #111;
+	opacity: 0;
+	transform: translateY(50px);
+	transition: 0.5s;
+	position: absolute;
+	top: 70%;
+	left: 33%;
+}
+.container3 .card3:hover .contentBx3 .add-cart
+{
+	opacity: 1;
+	transform: translateY(0px);
+	transition-delay: 0.75s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*ORANGE JUICE*/
+.containerb
+{
+	position: absolute;
+	top: 60%;
+	left: 10%;
+}
+
+	
+.containerb .cardb{
+	position: relative;
+	width: 320px;
+	height: 450px;
+	background: #232323;
+	border-radius: 20px;
+	overflow: hidden;
+}
+.containerb .cardb:hover{
+	box-shadow: 0 0 20px gold;
+	transition: 0.5s ease-in-out;
+}
+.containerb .cardb:before
+{
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: #66ccff;
+	clip-path: circle(150px at 80% 20%);
+	transition: 0.5s ease-in-out;
+}
+.containerb .cardb:hover:before
+{
+	clip-path: circle(300px at 80% -20%);
+
+}
+.containerb .cardb:after
+{
+	content: 'Orange';
+	position: absolute;
+	top: 30%;
+	left: -20%;
+	font-size: 12em;
+	font-weight: 800;
+	font-style: italic;
+	color: rgba(255,255,255,0.05);
+}
+.containerb .cardb .imgBxb
+{
+	position: absolute;
+	top: 50%;
+	left: 3%;
+	transform: translateY(-50%);
+	z-index: 10000;
+	width: 100%;
+	height: 220px;
+	transition: 0.5s;
+}
+.containerb .cardb:hover .imgBxb
+{
+	top: 0%;
+	transform: translateY(0%);
+
+}
+.containerb .cardb .contentBxb
+{
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 100px;
+	text-align: center;
+	transition: 1s;
+	z-index: 10;
+}
+.containerb .cardb:hover .contentBxb
+{
+	height: 210px;
+	
+}
+.containerb .cardb .contentBxb	h2
+{
+	position: relative;
+	font-weight: 600;
+	letter-spacing: 2px;
+	color: #fff;
+}
+.containerb .cardb .contentBxb .sizeb,
+.containerb .cardb .contentBxb .amountb
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 8px 20px;
+	transition: 0.5s;
+	opacity: 0;
+	visibility: hidden;
+}
+
+.containerb .cardb:hover .contentBxb .sizeb
+{
+	opacity: 1;
+	transition-delay: 0.5s;
+	visibility: visible;
+}
+.containerb .cardb:hover .contentBxb .amountb
+{
+	opacity: 1;
+	transition-delay: 0.5s;
+	visibility: visible;
+}
+
+.containerb .cardb .contentBxb .sizeb h3
+{
+	color: #fff;
+	font-weight: 300;
+	font-size: 14px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	margin-right: 10px;
+}
+.containerb .cardb .contentBxb .sizeb span
+{
+	width: 26px;
+	height: 26px;
+	text-align: center;
+	line-height: 26px;
+	font-size: 14px;
+	display: inline-block;
+	color: #111;
+	background: #fff;
+	cursor: pointer;
+	border-radius: 4px;
+	margin: 0 5px;
+}
+.containerb .cardb .contentBxb .sizeb span:hover
+{
+	background-color:  #66ccff;
+	color: black;
+}
+.amountb
+{
+	padding: 10px 20px;
+	box-sizing: border-box;
+	border-radius: 10px;
+	text-align: center;
+	box-shadow: 0 0 15px  #66ccff;
+	position: absolute;
+	left: 18%;
+}
+.containerb .cardb .contentBxb a
+{
+	display: inline-block;
+	padding: 10px 20px;
+	background: #fff;
+	border-radius: 4px;
+	margin-top: 10px;
+	text-decoration: none;
+	font-weight: 600;
+	color: #111;
+	opacity: 0;
+	transform: translateY(50px);
+	transition: 0.5s;
+	position: absolute;
+	top: 70%;
+	left: 33%;
+}
+.containerb .cardb:hover .contentBxb a
+{
+	opacity: 1;
+	transform: translateY(0px);
+	transition-delay: 0.75s;
+}
+
+
+
+
+
+
+
+
+
+
+/*PINEAPPLE JUICE*/
+.containerb2
+{
+	position: absolute;
+	top: 60%;
+	left: 40%;
+}
+
+	
+.containerb2 .cardb2{
+	position: relative;
+	width: 320px;
+	height: 450px;
+	background: #232323;
+	border-radius: 20px;
+	overflow: hidden;
+}
+.containerb2 .cardb2:hover{
+	box-shadow: 0 0 20px gold;
+	transition: 0.5s ease-in-out;
+}
+
+.containerb2 .cardb2:before
+{
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: #66ccff;
+	clip-path: circle(150px at 80% 20%);
+	transition: 0.5s ease-in-out;
+}
+.containerb2 .cardb2:hover:before
+{
+	clip-path: circle(300px at 80% -20%);
+}
+.containerb2 .cardb2:after
+{
+	content: 'Pineapple';
+	position: absolute;
+	top: 30%;
+	left: -20%;
+	font-size: 12em;
+	font-weight: 800;
+	font-style: italic;
+	color: rgba(255,255,255,0.05);
+}
+.containerb2 .cardb2 .imgBxb2
+{
+	position: absolute;
+	top: 50%;
+	left: 3%;
+	transform: translateY(-50%);
+	z-index: 10000;
+	width: 100%;
+	height: 220px;
+	transition: 0.5s;
+}
+.containerb2 .cardb2:hover .imgBxb2
+{
+	top: 0%;
+	transform: translateY(0%);
+}
+.containerb2 .cardb2 .contentBxb2
+{
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 100px;
+	text-align: center;
+	transition: 1s;
+	z-index: 10;
+}
+.containerb2 .cardb2:hover .contentBxb2
+{
+	height: 210px;
+}
+.containerb2 .cardb2 .contentBxb2	h2
+{
+	position: relative;
+	font-weight: 600;
+	letter-spacing: 2px;
+	color: #fff;
+}
+.containerb2 .cardb2 .contentBxb2 .sizeb2,
+.containerb2 .cardb2 .contentBxb2 .amountb2
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 8px 20px;
+	transition: 0.5s;
+	opacity: 0;
+	visibility: hidden;
+}
+
+.containerb2 .cardb2:hover .contentBxb2 .sizeb2
+{
+	opacity: 1;
+	transition-delay: 0.5s;
+	visibility: visible;
+}
+.containerb2 .cardb2:hover .contentBxb2 .amountb2
+{
+	opacity: 1;
+	transition-delay: 0.5s;
+	visibility: visible;
+}
+
+.containerb2 .cardb2 .contentBxb2 .sizeb2 h3
+{
+	color: #fff;
+	font-weight: 300;
+	font-size: 14px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	margin-right: 10px;
+}
+.containerb2 .cardb2 .contentBxb2 .sizeb2 span
+{
+	width: 26px;
+	height: 26px;
+	text-align: center;
+	line-height: 26px;
+	font-size: 14px;
+	display: inline-block;
+	color: #111;
+	background: #fff;
+	cursor: pointer;
+	border-radius: 4px;
+	margin: 0 5px;
+}
+.containerb2 .cardb2 .contentBxb2 .sizeb2 span:hover
+{
+	background-color:  #66ccff;
+	color: black;
+}
+.amountb2
+{
+	padding: 10px 20px;
+	box-sizing: border-box;
+	border-radius: 10px;
+	text-align: center;
+	box-shadow: 0 0 15px  #66ccff;
+	position: absolute;
+	left: 18%;
+}
+.containerb2 .cardb2 .contentBxb2 a
+{
+	display: inline-block;
+	padding: 10px 20px;
+	background: #fff;
+	border-radius: 4px;
+	margin-top: 10px;
+	text-decoration: none;
+	font-weight: 600;
+	color: #111;
+	opacity: 0;
+	transform: translateY(50px);
+	transition: 0.5s;
+	position: absolute;
+	top: 70%;
+	left: 33%;
+}
+.containerb2 .cardb2:hover .contentBxb2 a
+{
+	opacity: 1;
+	transform: translateY(0px);
+	transition-delay: 0.75s;
+}
+
+
+
+
+
+
+
+
+
+
+/*APPLE JUICE*/
+
+.containerb3
+{
+	position: absolute;
+	top: 60%;
+	left: 70%;
+}
+
+	
+.containerb3 .cardb3{
+	position: relative;
+	width: 320px;
+	height: 450px;
+	background: #232323;
+	border-radius: 20px;
+	overflow: hidden;
+
+}
+.containerb3 .cardb3:hover{
+	box-shadow: 0 0 20px gold;
+	transition: 0.5s ease-in-out;
+}
+
+.containerb3 .cardb3:before
+{
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: #66ccff;
+	clip-path: circle(150px at 80% 20%);
+	transition: 0.5s ease-in-out;
+}
+.containerb3 .cardb3:hover:before
+{
+	clip-path: circle(300px at 80% -20%);
+}
+.containerb3 .cardb3:after
+{
+	content: 'Apple';
+	position: absolute;
+	top: 30%;
+	left: -20%;
+	font-size: 12em;
+	font-weight: 800;
+	font-style: italic;
+	color: rgba(255,255,255,0.05);
+}
+.containerb3 .cardb3 .imgBxb3
+{
+	position: absolute;
+	top: 50%;
+	left: 3%;
+	transform: translateY(-50%);
+	z-index: 10000;
+	width: 100%;
+	height: 220px;
+	transition: 0.5s;
+}
+.containerb3 .cardb3:hover .imgBxb3
+{
+	top: 0%;
+	transform: translateY(0%);
+}
+.containerb3 .cardb3 .contentBxb3
+{
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 100px;
+	text-align: center;
+	transition: 1s;
+	z-index: 10;
+}
+.containerb3 .cardb3:hover .contentBxb3
+{
+	height: 210px;
+}
+.containerb3 .cardb3 .contentBxb3	h2
+{
+	position: relative;
+	font-weight: 600;
+	letter-spacing: 2px;
+	color: #fff;
+}
+.containerb3 .cardb3 .contentBxb3 .sizeb3,
+.containerb3 .cardb3 .contentBxb3 .amountb3
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 8px 20px;
+	transition: 0.5s;
+	opacity: 0;
+	visibility: hidden;
+}
+
+.containerb3 .cardb3:hover .contentBxb3 .sizeb3
+{
+	opacity: 1;
+	transition-delay: 0.5s;
+	visibility: visible;
+}
+.containerb3 .cardb3:hover .contentBxb3 .amountb3
+{
+	opacity: 1;
+	transition-delay: 0.5s;
+	visibility: visible;
+}
+
+.containerb3 .cardb3 .contentBxb3 .sizeb3 h3
+{
+	color: #fff;
+	font-weight: 300;
+	font-size: 14px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	margin-right: 10px;
+}
+.containerb3 .cardb3 .contentBxb3 .sizeb3 span
+{
+	width: 26px;
+	height: 26px;
+	text-align: center;
+	line-height: 26px;
+	font-size: 14px;
+	display: inline-block;
+	color: #111;
+	background: #fff;
+	cursor: pointer;
+	border-radius: 4px;
+	margin: 0 5px;
+}
+.containerb3 .cardb3 .contentBxb3 .sizeb3 span:hover
+{
+	background-color:  #66ccff;
+	color: black;
+}
+.amountb3
+{
+	padding: 10px 20px;
+	box-sizing: border-box;
+	border-radius: 10px;
+	text-align: center;
+	box-shadow: 0 0 15px  #66ccff;
+	position: absolute;
+	left: 18%;
+}
+.containerb3 .cardb3 .contentBxb3 a
+{
+	display: inline-block;
+	padding: 10px 20px;
+	background: #fff;
+	border-radius: 4px;
+	margin-top: 10px;
+	text-decoration: none;
+	font-weight: 600;
+	color: #111;
+	opacity: 0;
+	transform: translateY(50px);
+	transition: 0.5s;
+	position: absolute;
+	top: 70%;
+	left: 33%;
+}
+.containerb3 .cardb3:hover .contentBxb3 a
+{
+	opacity: 1;
+	transform: translateY(0px);
+	transition-delay: 0.75s;
+}
+
+
+
+
+
+
+
+
+
+
+.cart {
+	position: absolute;
+	top: 5%;
+	left: 85%;
+	font-size: 25px;
+	cursor: default;
+	list-style: none;
+	border: 2px solid gold;
+	background-color: black;
+	padding: 5px;
+	box-sizing: border-box;
+
+	
+}
+
+.cart:hover{
+	transform: scale(1.1);
+	box-shadow: 0 0 20px gold;
+}
+
+ul li a{
+	text-decoration: none;
+	color: gold;
+}
+.cart span {
+	padding-left: 20px;
+	padding-right: 20px;
+	box-sizing: border-box;
+	text-decoration: underline;	
+}
+
+
+
+
+.right a{
+	position: absolute;
+	top: 85%;
+	left: 93%;
+	font-size: 70px;
+	color: white;
+	transition: transform 0.2s ease-in-out;
+}
+.right a:hover{
+	transform: scale(1.2);
+}
+.left a{
+	position: absolute;
+	top: 85%;
+	left: 1%;
+	font-size: 70px;
+	color: white;
+	transition: transform 0.2s ease-in-out;
+}
+.left a:hover{
+	transform: scale(1.2);
+}
+
